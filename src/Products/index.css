@@ -1,0 +1,14 @@
+.products-page{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+/* display: flex; */
+/* margin-left: 20%; */
+margin-top: 25%;
+/* border: solid 1px; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.products-page img{
+    height: 20%;
+    /* border: solid 1px; */
+}

@@ -1,0 +1,74 @@
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+#landing{
+width: 100%;
+height: 50%;
+background-color: #2F5959;
+position: absolute;
+
+}
+#input{
+    width: 30%;
+    height: 40px;
+    border-radius: 25%;
+    /* margin: 20%; */
+}
+#icons{
+    display: flex;
+    gap: 10px;
+}
+#icons{
+    display: flex;
+    margin-right: 10%;
+
+}
+#topnav{
+    display: flex;
+    align-items: center;
+    /* gap: 20%; */
+    justify-content: space-between;
+    color: white;
+    font-size: larger;
+}
+#title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#landong-info{
+margin-left: 10%;
+}
+#shop button{
+  width: 70%; 
+  height: 70%; 
+}
+#shop-now{
+    display: flex;
+    gap: 5%;
+}
+#shop-now button{
+    width: 70%;
+    height: 70%;
+}
+#info-heading{
+    color: white;
+}
+/* #image{
+    width: 70%;
+} */
+#back1 img{
+    width: 30%;
+    margin-left: 40%;
+    height: 10%;
+    margin-top: -18%;
+    position: relative;
+}#back img{
+    width: 29%;
+    margin-left: 71%;
+    height: 15%;
+    margin-top: -20%;
+    position: relative;
+    border-radius: 20%;
+}
