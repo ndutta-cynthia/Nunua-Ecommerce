@@ -3,7 +3,8 @@ import { CiSearch } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { MdOutlineShoppingBag } from "react-icons/md";
 import { IoMdPerson } from "react-icons/io";
-import back from './back.webp'
+import fashion1 from './fashion124.jpg';
+import fashion2 from './fashion125.jpg';
 
 
 const Landing= () =>{
@@ -31,14 +32,14 @@ return(
 
         <div id='landong-info'>
             <div id='info-heading'>
-            <input placeholder="FASHION IDEAS" type="text" id='input' />
+            <input placeholder="FASHION IDEAS" type="text" id='placeholder' />
                 <div>
                 <h1>Modern Fashions</h1>
                 <h1>Design Studio</h1>
                 </div>
                 <div>
                 <p>
-                    <span>Choosing the right clothe for yourselfwill add</span>
+                    <span>Choosing the right cloth for yourselfwill add</span>
                     <br></br>
                     <span>elegance to your outlook</span>
                     <br></br>
@@ -48,23 +49,20 @@ return(
                     <div >
                         <button id='shop'>Shopnow  &rarr;</button>
                     </div>
-                    <div>
-                        Follow Instagram
+                    <div id='insta'>
+                        <u>Follow Instagram</u>
                     </div>
                 </div>
-               
                 </div>
             </div>
-            <div>
-                
+            <div>    
             </div>
-
         </div>
         <div id='back1'>
-            <img src={back}/>
+            <img src={fashion1} alt='Landing'/>
         </div>
         <div id='back'>
-            <img src={back}/>
+            <img src={fashion2} alt='landing'/>
         </div>
         
 

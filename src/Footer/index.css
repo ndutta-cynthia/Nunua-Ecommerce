@@ -1,0 +1,39 @@
+#line{
+    border-bottom: 4px solid green;
+    height: 70px;
+    /* margin-bottom: 20%; */
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    height: 20%;
+    color: white;
+    font-size: x-large;
+    margin-top: 1%;
+    border-radius: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon1{
+    color: aliceblue;
+    height:50px ;
+    width: 50px;
+}
+
+
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    justify-content: space-around;
+    /* justify-content: center; */
+    align-items: center;
+}
+#icons{
+    justify-content: center;
+    padding: 4%;
+}

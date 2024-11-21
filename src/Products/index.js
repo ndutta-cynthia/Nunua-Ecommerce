@@ -11,7 +11,9 @@ function Products() {
         {loading && <h2>Loading products ...</h2>}
         {error.length > 0 && <h2>{error}</h2>}
         {Products.length > 0 ? Products.map((product) => (
-          <ProductsCard
+            <>
+            <div id="products">
+          <ProductsCard 
             key={product.id}
             title= {product.title}
             price= {product.price}
@@ -20,6 +22,9 @@ function Products() {
             image={product.image}
             rating = {product.rating}
             />
+            <button className="cart">Add to Cart</button>
+            </div>
+            </>
         )) : !loading && <h2>No product found</h2>}
       </div>
       

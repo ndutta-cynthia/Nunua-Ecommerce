@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './Navbar';
 import Landing from './Landing';
 import Products from './Products';
+import Footer from './Footer';
 
 
 
@@ -13,6 +14,7 @@ const App= () => {
       <Nav/>
       <Landing/>
       <Products/>
+      <Footer/>
     </div>
   );
 }
